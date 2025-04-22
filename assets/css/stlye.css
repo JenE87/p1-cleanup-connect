@@ -1,5 +1,26 @@
-/* Header */
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 
-/* Body */
+/* CSS variables */
+:root {
+    --primary-font: "National Park", sans-serif;
+    --primary-color: #08392B; /*dark green*/
+    --secondary-color: #578E87; /* light blue green */
+    --highlight-color: #BF4E30; /* orange */
+    --highlight-color-light: #EFC8BD; /*light orange pink*/
+}
+
+/* Header */
+header {
+    background-color: red;
+}
+
+/* Main */
+main {
+    background-color: yellow;
+}
 
 /* Footer */
+footer {
+    background-color: green;
+}
