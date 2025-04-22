@@ -4,15 +4,30 @@
 /* CSS variables */
 :root {
     --primary-font: "National Park", sans-serif;
-    --primary-color: #08392B; /*dark green*/
-    --secondary-color: #578E87; /* light blue green */
+    --primary-color: #08392B; /* dark green */
+    --secondary-color: #87C38F; /* light green */
     --highlight-color: #BF4E30; /* orange */
-    --highlight-color-light: #EFC8BD; /*light orange pink*/
+    --highlight-color-light: #F4F0BB; /*yellow*/
 }
 
 /* Global styles */
 body {
     font-family: var(--primary-font);
+}
+
+/* Buttons */
+.custom-button-filled {
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
+    font-weight: 450;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 450;
 }
 
 /* Navbar */
@@ -22,11 +37,8 @@ body {
 }
 
 #navbar .logo {
-    /* Downsizing of the logo to make it fit the navbar better */
     width: 50px;
 }
-
-#navbar 
 
 /* Header */
 
@@ -48,5 +60,10 @@ footer {
 
 #social-links i {
     font-size: 170%;
-    color: var(--highlight-color-light);
+    color: #ffffff;
+}
+
+#social-links i:hover {
+    font-size: 170%;
+    color: var(--secondary-color);
 }
