@@ -10,17 +10,23 @@
     --highlight-color-light: #EFC8BD; /*light orange pink*/
 }
 
-/* Header */
-header {
-    background-color: red;
+/* Global styles */
+body {
+    font-family: var(--primary-font);
 }
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 50px;
+}
+
+/* Header */
+
 
 /* Main */
-main {
-    background-color: yellow;
-}
 
 /* Footer */
-footer {
-    background-color: green;
-}
