@@ -18,11 +18,15 @@ body {
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
+    color: var(--highlight-color-light);
 }
 
 #navbar .logo {
+    /* Downsizing of the logo to make it fit the navbar better */
     width: 50px;
 }
+
+#navbar 
 
 /* Header */
 
@@ -30,3 +34,19 @@ body {
 /* Main */
 
 /* Footer */
+footer {
+    background-color: var(--primary-color);
+}
+
+#social-links {
+    text-align: center;
+    display: flex; 
+    justify-content: space-evenly;
+    list-style-type: none; 
+    padding-top: 15px;
+}
+
+#social-links i {
+    font-size: 170%;
+    color: var(--highlight-color-light);
+}
