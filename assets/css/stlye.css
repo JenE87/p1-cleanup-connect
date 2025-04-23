@@ -42,9 +42,9 @@ body {
 
 /* Main */
 #hero {
-    height: 600px;
+    height: 500px;
     /* Hero image from Pexels search "trash in nature" */
-    background: url("../images/hero_pexels-shvetsa.jpg") no-repeat center center/cover;
+    background: url("../images/hero_pexels-shvetsa-large.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
