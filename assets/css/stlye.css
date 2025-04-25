@@ -13,10 +13,18 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
 }
 
 section {
     margin-bottom: 15px;
+}
+
+h1, 
+h2 {
+    text-transform: uppercase;
 }
 
 /* Buttons */
@@ -64,7 +72,22 @@ main {
     top: 20px; 
     width: fit-content;
     padding-top: 10px;
-    text-transform: uppercase;
+}
+
+/* Introductory section */
+
+#circle-cover-bg {
+    background: url("../images/intro-image-hands.jpg") no-repeat top center/cover;
+    height: 30vw;
+    width: 30vw;
+    /* 50% radius to transform the image into a circle */
+    border-radius: 50%;
+}
+
+#intro-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Reasons section */
