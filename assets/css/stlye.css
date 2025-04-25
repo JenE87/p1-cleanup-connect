@@ -67,6 +67,12 @@ main {
     text-transform: uppercase;
 }
 
+/* Reasons section */
+
+#benefits {
+    margin-top: 20px;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
