@@ -41,10 +41,25 @@ body {
 }
 
 /* Main */
+main {
+    margin-top: 76px; 
+}
+
 #hero {
     height: 500px;
     /* Hero image from Pexels search "trash in nature" */
     background: url("../images/hero_pexels-shvetsa-large.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-text {
+    /* background-color is var(--highlight-color-light) in rgba to add semi-transparency with the last value for opacity */
+    background-color: rgba(244,240,187,0.8);
+    color: var(--primary-color);
+    position: absolute;
+    top: 20px; 
+    width: fit-content;
+    padding-top: 10px;
 }
 
 /* Footer */
