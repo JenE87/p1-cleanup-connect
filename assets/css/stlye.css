@@ -95,6 +95,10 @@ main {
     margin-top: 20px;
 }
 
+#benefits p {
+    padding: 0 15px;
+}
+
 /* Events section */
 #dates {
     /* Image from unsplash when searching "community" */
@@ -131,7 +135,7 @@ footer {
 
 #social-links i {
     font-size: 170%;
-    color: #ffffff;
+    color: var(--highlight-color-light);
 }
 
 #social-links i:hover {
