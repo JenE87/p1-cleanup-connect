@@ -15,6 +15,10 @@ body {
     font-family: var(--primary-font);
 }
 
+section {
+    margin-bottom: 15px;
+}
+
 /* Buttons */
 .custom-button-filled {
     border: 2px solid var(--highlight-color-light);
@@ -60,6 +64,7 @@ main {
     top: 20px; 
     width: fit-content;
     padding-top: 10px;
+    text-transform: uppercase;
 }
 
 /* Footer */
