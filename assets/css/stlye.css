@@ -75,8 +75,8 @@ main {
 }
 
 /* Introductory section */
-
 #circle-cover-bg {
+    /* image from pexels when searching "community" */
     background: url("../images/intro-image-hands.jpg") no-repeat top center/cover;
     height: 30vw;
     width: 30vw;
@@ -91,9 +91,29 @@ main {
 }
 
 /* Reasons section */
-
 #benefits {
     margin-top: 20px;
+}
+
+/* Events section */
+#dates {
+    /* Image from unsplash when searching "community" */
+    background: url("../images/events-group-image.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+
+#dates div {
+    color: var(--highlight-color-light);
+    background-color: rgba(8, 57, 43, 0.7);
+    padding: 20px;
+    text-align: center;
+    /* To make each dive fill out its row on screens that are less than 400px wide, and also not wrap on them. */
+    flex-basis: 200px; 
+    flex-grow: 1;
+    /* Creates a grid of the event dates over the bg image */
+    border: 2px solid var(--highlight-color-light);
 }
 
 /* Footer */
