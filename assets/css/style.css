@@ -47,6 +47,20 @@ h2 {
     font-weight: 450;
 }
 
+.custom-button-outlined {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--highlight-color-light);
+    font-weight: 450;
+}
+
+.custom-button-outlined:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 450;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -58,10 +72,6 @@ h2 {
 }
 
 /* Header */
-#header {
-    padding-top: 2rem;
-}
-
 #header h3 {
     color: var(--highlight-color);
 }
@@ -128,6 +138,12 @@ h2 {
     flex-grow: 1;
     /* Creates a grid of the event dates over the bg image */
     border: 2px solid var(--highlight-color-light);
+}
+
+/* Signup form section */
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 /* Footer */
