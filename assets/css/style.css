@@ -71,6 +71,11 @@ h2 {
     width: 50px;
 }
 
+.nav-link,
+.nav-item {
+    color: var(--highlight-color-light);
+}
+
 /* Header */
 #header h3 {
     color: var(--highlight-color);
