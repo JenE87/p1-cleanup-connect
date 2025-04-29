@@ -71,7 +71,7 @@ Following the submittance of the sign up form the user is directed to a success 
 
 ## Testing
 ### Manual Testing 
-The website was tested on screen sizes from small to extra large for its responsiveness, navigation and overall layout. All pages of the website are repsonsive. All external links open in new tabs and respond upon hovering over them. The internal links lead to the correct page on the website and also respond upon hovering over them. 
+The website was tested on screen sizes from small to extra large for its responsiveness, navigation and overall layout. All pages of the website are repsonsive. All external links open in new tabs and respond upon hovering over them. The internal links lead to the correct page on the website and also respond upon hovering over them. The [Autoprefixer](https://autoprefixer.github.io/) was used to include necessary prefixes to ensure all CSS properties work in different browsers.
 
 ### Lighthouse Testing 
 Perfomance, Accessibility, Best Practises and SEO were analyzed through Lighthouse. All categories show good results. 
