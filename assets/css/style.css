@@ -176,6 +176,8 @@ footer {
     justify-content: space-evenly;
     list-style-type: none; 
     padding-top: 15px;
+    /* Margin set to 16px to center the social link items */
+    margin-right: 16px;
 }
 
 #social-links i {
