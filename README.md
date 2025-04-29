@@ -8,18 +8,18 @@ Cleanup & Connect is a community-driven initiative focused on organizing local c
 
 ## Features
 ### Navigation Bar
-A fully responsive Navigation bar is featured on all (FOUR) pages, including links to the Logo, Home page, Gallery and Sign up form. It is identical on each page and fixed to the top of the screen to easily navigate the different sections and pages. On devices with a width of less than 768px the menu is toggable and will open in a dropdown list.
+A fully responsive Navigation bar is featured on all pages, including links to the Logo (home page), Home page, Gallery and Sign up form. It is identical on each page and fixed to the top of the screen to easily navigate the different sections and pages. On devices with a width of less than 768px the menu is toggable and will open in a dropdown list.
 
 ![Screenshot 2025-04-29 195250](https://github.com/user-attachments/assets/0c09014a-42ed-427d-a65b-13df2df34ccc)
 ![Screenshot 2025-04-29 195314](https://github.com/user-attachments/assets/36d8f557-0b6f-45f8-8556-3be86838d349)
 
 ### Hero Image on the landing page
-An eyecatching image of a group of people collecting trash together provides the users an initial insight into the initiative. The initiative name is included as a text overlay in the Picture.
+An eyecatching image of a group of people collecting trash together provides the users an initial insight into the initiative. The name of the initiative is included as a text overlay in the image.
 
 ![Screenshot 2025-04-29 195116](https://github.com/user-attachments/assets/456f97dc-1f55-4058-bd43-7be5fba920a0)
 
 ### "Who we are" section
-The "Who we are" section provides an introductory overview of the initiative, its Background and target group, and aims to build trust and connection with the user. 
+The "Who we are" section provides an introductory overview of the initiative, its background and target group, and aims to build trust and connection with the user. 
 
 ![Screenshot 2025-04-29 195422](https://github.com/user-attachments/assets/bbf6e864-7cac-4460-bd14-c9fd43ec543f)
 
