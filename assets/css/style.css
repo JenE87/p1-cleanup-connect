@@ -173,6 +173,11 @@ h2 {
     margin-bottom: 0;
 }
 
+.hidden-heading {
+    /* Hidden heading included since section on gallery page otherwise lacks an identifying heading */
+    display: none;
+}
+
 /* Signup form page */
 .form-check-input:checked {
     background-color: var(--primary-color);
