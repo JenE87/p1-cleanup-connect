@@ -37,6 +37,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Buttons */
 .custom-button-filled {
     border: 2px solid var(--highlight-color-light);
@@ -171,11 +175,6 @@ h2 {
 
 #gallery {
     margin-bottom: 0;
-}
-
-.hidden-heading {
-    /* Hidden heading included since section on gallery page otherwise lacks an identifying heading */
-    display: none;
 }
 
 /* Signup form page */
