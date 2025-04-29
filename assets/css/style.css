@@ -187,3 +187,25 @@ footer {
     font-size: 170%;
     color: var(--secondary-color);
 }
+
+/* Media query: large phone or landscape screens (576px and up) */
+@media screen and (min-width: 576px) {
+    #images {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    #images {
+        column-count: 3;
+    }
+}
+
+/* Media query: large devices (992px and up) */
+@media screen and (min-width: 992px) {
+    #images {
+        column-count: 4;
+    }
+}
