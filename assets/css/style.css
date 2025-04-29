@@ -145,7 +145,16 @@ h2 {
     border: 2px solid var(--highlight-color-light);
 }
 
-/* Signup form section */
+/* Gallery page */
+#images img {
+    width: 100%
+}
+
+#gallery {
+    margin-bottom: 0;
+}
+
+/* Signup form page */
 .form-check-input:checked {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
