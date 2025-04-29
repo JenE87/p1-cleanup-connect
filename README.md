@@ -98,6 +98,8 @@ Perfomance, Accessibility, Best Practises and SEO were analyzed through Lighthou
 - Faulty connection between the pages due to a misspelling of the style.css file (bug: stlye.css).
 - Low performance and slow loading of the site fixed by adjusting the size of all images used.
 - Center alignment of social links in the footer ensured by adding a margin-right value of 16px.
+- Hidden headings were added to the gallery page and ahead of the sign up form to include identifying headers.
+- An id was used twice in the sign up form, and has been adjusted to make it unique.
 
 ### Unfixed Bugs
 None
