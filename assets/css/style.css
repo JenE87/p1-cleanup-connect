@@ -94,7 +94,7 @@ h2 {
 #hero {
     height: 500px;
     /* Hero image from pexels search "trash in nature" */
-    background: url("../images/hero_pexels-shvetsa-large.jpg") no-repeat center center/cover;
+    background: url("../images/hero-pexels-shvetsa-large.jpg") no-repeat center center/cover;
     position: relative;
 }
 
