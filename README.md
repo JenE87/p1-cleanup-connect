@@ -24,7 +24,7 @@ The "Who we are" section provides an introductory overview of the initiative, it
 ![Screenshot 2025-04-29 195422](https://github.com/user-attachments/assets/bbf6e864-7cac-4460-bd14-c9fd43ec543f)
 
 ### "Why Join" section 
-The "Why join" section highlights key benefits of the initiative on a general and personal scale. This section should motivate interested people to join a cleanup.
+The "Why join" section highlights key benefits of the initiative on a general and personal scale. This section with added themed icons should motivate interested people to join a cleanup.
 
 ![Screenshot 2025-04-29 195450](https://github.com/user-attachments/assets/8341df1a-fc0b-4913-8636-fcefac429710)
 
@@ -44,7 +44,7 @@ The gallery shows a variety of images of cleanups, trash in nature and clean lan
 ![Screenshot 2025-04-29 195709](https://github.com/user-attachments/assets/c2f92e72-38f7-476b-9b62-76b1fd75ead1)
 
 ### Sign up page
-The Sign up page allows interested users to stay informed about the Cleanup & Connect initiative and signup for future cleanup dates through a form.The user is required to provide their full name, email address and message, and has the option to select  upcoming cleanup dates.
+The Sign up page allows interested users to stay informed about the Cleanup & Connect initiative and signup for future cleanup dates through a form. The user is required to provide their full name, email address and message, and has the option to select  upcoming cleanup dates.
 
 ![Screenshot 2025-04-29 195946](https://github.com/user-attachments/assets/cdc5338e-0423-4cf0-abad-670adb2952f3)
 
@@ -62,7 +62,7 @@ Following the submittance of the sign up form the user is directed to a success 
 ## Design & Layout
 - Responsive design (mobile-first approach)
 - Consistent layout for intuitive navigation
-- Nature-inspired, minimalist styling with green tones
+- Nature-inspired, minimalist styling with green tones and hightlight colors in yellow and orange
 - Custom white logo and consistent branding
 
 ![Screenshot 2025-04-29 201145](https://github.com/user-attachments/assets/9e9a29ad-d19d-4b08-bb3d-48ffdd8840e6)
@@ -97,7 +97,7 @@ Perfomance, Accessibility, Best Practises and SEO were analyzed through Lighthou
 ### Fixed Bugs
 - Faulty connection between the pages due to a misspelling of the style.css file (bug: stlye.css).
 - Low performance and slow loading of the site fixed by adjusting the size of all images used.
-- Center alignment of social links in the footer ensured by adding a margin-right value of 16px.
+- Center alignment of social links in the footer ensured by adding padding-right.
 - Hidden headings were added to the gallery page and ahead of the sign up form to include identifying headers.
 - An id was used twice in the sign up form, and has been adjusted to make it unique.
 
@@ -127,7 +127,7 @@ All code is inspired by lessons and modules included in the Code Institute's Ful
 ### Content & Media
 - Font used: [National Park](https://fonts.google.com/specimen/National+Park) (Google Fonts), with sans-serif as the backup font
 - Images were downloaded from the open source sites [Pexels](pexels.com) and [Unsplash](unsplash.com)
-- Colors and color palette were chosen from [Canva](canva.com) and [Coolors](coolors.co)
+- Colors and color palettes were chosen from [Canva](canva.com) and [Coolors](coolors.co)
 	- #08392B (dark green) 
 	- #87C38F (light green) 
 	- #BF4E30 (orange) 
