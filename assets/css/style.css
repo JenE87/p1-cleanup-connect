@@ -99,7 +99,7 @@ h2 {
 }
 
 #hero-text {
-    /* background-color is var(--highlight-color-light) in rgba to add semi-transparency with the last value for opacity */
+    /* Background-color is var(--highlight-color-light) in rgba to add semi-transparency with the last value */
     background-color: rgba(244,240,187,0.8);
     color: var(--primary-color);
     position: absolute;
@@ -112,7 +112,7 @@ h2 {
 
 /* Introductory section */
 #circle-cover-bg {
-    /* image from pexels when searching "community" */
+    /* Image from pexels when searching "community" */
     background: url("../images/intro-image-hands.jpg") no-repeat top center/cover;
     height: 30vw;
     width: 30vw;
@@ -158,7 +158,7 @@ h2 {
     background-color: rgba(8, 57, 43, 0.7);
     padding: 20px;
     text-align: center;
-    /* To make each dive fill out its row on screens that are less than 400px wide, and also not wrap on them. */
+    /* To make each div fill out its row on screens that are less than 400px wide, and also not wrap on them. */
     -ms-flex-preferred-size: 200px;
         flex-basis: 200px; 
     -webkit-box-flex: 1; 
@@ -203,8 +203,8 @@ footer {
             justify-content: space-evenly;
     list-style-type: none; 
     padding-top: 15px;
-    /* Margin set to 16px to center the social link items */
-    margin-right: 16px;
+    /* Padding added to center the social link items */
+    padding-right: 2rem;
 }
 
 #social-links i {
